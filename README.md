@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Our Menu</title>
-    
 </head>
+
 <body>
 <section>
 <div class="row">

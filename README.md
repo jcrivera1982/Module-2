@@ -11,8 +11,7 @@
           <div id="box">
           <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!
               </div>
-   </div>
-</div>
+               </div>
 </section>
 
 <section>

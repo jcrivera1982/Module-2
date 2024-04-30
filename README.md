@@ -21,14 +21,10 @@
 </section>
 
 <section>
-<div class="row">
-   <div class="col-lg-4 col-md-6">
-      <div class="section">
-         <h2 class="sushi">Sushi</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-      </div>
-   </div>
-</div>
+<div id="box">
+    <h2>Beef</h2> 
+    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
+          </div>
 </section>   
 
 </body>

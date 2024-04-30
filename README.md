@@ -3,6 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>Our Menu </title>
+    <style>
+        .custom-box {
+            width: 200px;
+            height: 100px;
+            background-color: #ccc; /* Gray background color */
+            border: 2px solid #000; /* Black border */
+            padding: 10px; /* Add some padding inside the box */
+        }
+    </style>
 </head>
 
 <body>

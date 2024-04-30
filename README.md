@@ -7,15 +7,13 @@
 
 <body>
 <section>
-<div class="row">
-   <div class="col-lg-4 col-md-6">
-      <div class="section">
-         <h2 class="chicken">Chicken</h2>
+         <h2>Chicken</h2>
           <div id="box">
           <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!
               </div>
    </div>
 </div>
+</section>
 
 <section>
 <div class="row">

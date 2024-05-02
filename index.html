@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <h1>Our Menu</h1>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            height: 500px;
+        }
+        .box {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin-right: 30px; 
+            background-color: gray; 
+            border: 2px solid black; 
+            color: black; /
+            text-align: center; 
+            line-height: 200px; 
+        }
+        .box1 { background-color: gray; }
+        .box2 { background-color: gray; }
+        .box3 { background-color: gray; margin-right: 0; }
+    </style>
 </head>
-
 <body>
-<section>
-    <div id="box">
-    <h2>Chicken</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Beef</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Sushi</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>   
-
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="box box1">Chicken</div>
+        <div class="box box2">Beef</div>
+        <div class="box box3">Sushi</div>
+    </div>
 </body>
-
 </html>

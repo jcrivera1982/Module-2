@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .container {
-            width: 960px;
-            margin: 0 auto;
-            height: 500px;
-        }
-        .box {
+        
+ p {
             float: left;
             width: 300px;
             height: 200px;
@@ -20,9 +16,9 @@
             text-align: top right; 
             line-height: 200px; 
         }
-        .box1 { background-color: gray; text-align: top right;}
-        .box2 { background-color: gray; text-align: top right;}
-        .box3 { background-color: gray; margin-right: 0; text-align: top right;}
+        #p1 { background-color: gray; text-align: top right;}
+        #p2 { background-color: gray; text-align: top right;}
+        #p3 { background-color: gray; margin-right: 0; text-align: top right;}
     </style>
 </head>
 <body>

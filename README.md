@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-   
+<meta charset="utf-8">
+<style>
+div {
+    background-color: gray;
+}
+p {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+    
+</style>   
  
 </head>
 

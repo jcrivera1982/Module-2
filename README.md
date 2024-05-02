@@ -2,6 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
+</head>
+
+<body>
+    
 <style>
 div {
     background-color: gray;
@@ -11,14 +15,9 @@ p {
     height: 50px;
     border: 1px solid black;
 }
-
+</style> 
     
-</style>   
- 
-</head>
-
-<body>
-    <h1>Our Menu</h1>
+<h1>Our Menu</h1>
     
 <section>
     <div id="box">

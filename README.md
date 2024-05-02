@@ -10,7 +10,7 @@
             height: 500px;
         }
         .box {
-            float: left;
+            display: inline-block;
             width: 300px;
             height: 200px;
             margin-right: 30px; 

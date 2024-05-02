@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <h1>Our Menu</h1>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            height: 500px;
+        }
+        .box {
+            float: left;
+            width: 300px;
+            height: 200px;
+            background-color: gray;
+            border: 1px solid black;
+            margin-right: 10px; /* Add space between boxes */
+        }
+    </style>
 </head>
-
 <body>
-<section>
-    <div id="box">
-    <h2>Chicken</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Beef</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Sushi</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>   
-
+    <h1 style="text-align: center;">Our Menu</h1>
+    <div class="container">
+        <div class="box">Box 1<br>Some text inside</div>
+        <div class="box">Box 2<br>More text inside</div>
+        <div class="box">Box 3<br>Even more text inside</div>
+    </div>
 </body>
-
 </html>

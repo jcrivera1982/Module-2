@@ -7,17 +7,18 @@
             width: 960px;
             margin: 0 auto;
             height: 200px;
-            text-align: center; /* Center the boxes horizontally */
+            text-align: center; 
         }
         .box {
-            float: left; /* Float the boxes to the left */
+            float: left; 
             width: 300px;
             height: 200px;
-            margin-right: 30px;
+            margin-right: 0px;
             background-color: gray;
             border: 2px solid black;
             color: black;
-            line-height: 200px; /* Vertically center the text */
+            line-height: 200px; 
+            padding: 2px
         }
     </style>
 </head>
@@ -26,7 +27,7 @@
     <div class="container">
         <div class="box">Chicken</div>
         <div class="box">Beef</div>
-        <div class="box"; float: right;>Sushi</div>
+        <div class="box">Sushi </div>
     </div>
 </body>
 </html>

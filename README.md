@@ -6,8 +6,8 @@
     <style>
         .box {
             float: left;
-            width: 30%; /* Adjust the width as needed */
-            margin-right: 10px; /* Add space between boxes */
+            width: 50px; 
+            margin-right: 10px;
             padding: 20px;
             background-color: gray;
             border: 1px solid black;

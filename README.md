@@ -2,11 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <h1>Our Menu</h1>
+   
  
 </head>
 
 <body>
+    <h1>Our Menu</h1>
+    
 <section>
     <div id="box">
     <h2>Chicken</h2> 

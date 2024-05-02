@@ -19,6 +19,8 @@
         #p1 { background-color: gray; text-align: top right;}
         #p2 { background-color: gray; text-align: top right;}
         #p3 { background-color: gray; margin-right: 0; text-align: top right;}
+section {
+    clear: left;}
     </style>
 </head>
 <body>

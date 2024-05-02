@@ -26,9 +26,9 @@
 <body>
     <h1>Our Menu</h1>
     <div class="container">
-        <div class="box">Chicken</div>
-        <div class="box">Beef</div>
-        <div class="box">Sushi</div>
+        <div class="box"; text-align: right;>Chicken</div>
+        <div class="box"; text-align: right;>Beef</div>
+        <div class="box"; text-align: right;>Sushi</div>
     </div>
 </body>
 </html>

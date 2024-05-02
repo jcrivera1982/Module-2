@@ -20,9 +20,9 @@
             text-align: top right; 
             line-height: 200px; 
         }
-        .box1 { background-color: gray; }
-        .box2 { background-color: gray; }
-        .box3 { background-color: gray; margin-right: 0; }
+        .box1 { background-color: gray; text-align: top right;}
+        .box2 { background-color: gray; text-align: top right;}
+        .box3 { background-color: gray; margin-right: 0; text-align: top right;}
     </style>
 </head>
 <body>

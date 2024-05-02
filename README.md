@@ -14,8 +14,8 @@
             width: 300px;
             height: 200px;
             margin-right: 30px; 
-            background-color: #ccc; 
-            border: 2px solid #000; 
+            background-color: gray; 
+            border: 2px solid black; 
             color: white; 
             text-align: center; 
             line-height: 200px; 

@@ -1,45 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            float: left;
+            width: 30%; /* Adjust the width as needed */
+            margin-right: 10px; /* Add space between boxes */
+            padding: 20px;
+            background-color: gray;
+            border: 1px solid black;
+        }
+    </style>
 </head>
-
 <body>
-    
-<style>
-div {
-    background-color: gray;
-}
-p {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-}
-</style> 
-    
-<h1>Our Menu</h1>
-    
-<section>
-    <div id="box">
-    <h2>Chicken</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Beef</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>
-
-<section>
-<div id="box">
-    <h2>Sushi</h2> 
-    <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</div>
-          </div>
-</section>   
-
+    <div class="box">Box 1<br>Some text inside</div>
+    <div class="box">Box 2<br>More text inside</div>
+    <div class="box">Box 3<br>Even more text inside</div>
 </body>
-
 </html>
+

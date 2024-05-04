@@ -17,6 +17,7 @@
         .box h2 {
             font-size: 18px;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         .box p {

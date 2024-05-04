@@ -18,16 +18,19 @@
             border: 2px solid black;
             color: black;
             line-height: 200px; 
-            padding: 2px
+            padding: 10px
+            text-align: top center;
         }
+    @media (min-width: 768px) (max-width: 991px)
+    @media (max-width: 767px) {.box {width: 100%;}
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Our Menu</h1>
+     <h1 style="text-align: center;">Our Menu</h1>
     <div class="container">
-        <div class="box">Chicken</div>
-        <div class="box">Beef</div>
-        <div class="box">Sushi </div>
+        <div class="box">Chicken Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="box">Beef Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="box">Sushi Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
     </div>
 </body>
 </html>

@@ -2,35 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  
+    <title>Our Menu</title>
     <style>
-        .container {
-            width: 960px;
-            margin: 0 auto;
-            height: 200px;
-            text-align: center; 
-        }
         .box {
-            float: left; 
-            width: 300px;
-            height: 200px;
-            margin-right: 0px;
-            background-color: gray;
-            border: 2px solid black;
-            color: black;
-            line-height: 200px; 
-            padding: 10px
-            text-align: top center;
+            float: left;
+            width: 30%; 
+            margin: 10px;
+            padding: 10px;
+            background-color: gray; 
+            border: 2px solid black; 
+        }
+
+        .box h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            font-size: 14px;
+            line-height: 1.5;
         }
     @media (min-width: 768px) (max-width: 991px)
     @media (max-width: 767px) {.box {width: 100%;}
+    
     </style>
 </head>
 <body>
-     <h1 style="text-align: center;">Our Menu</h1>
-    <div class="container">
-        <div class="box">Chicken Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div class="box">Beef Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-        <div class="box">Sushi Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    <h1>Our Menu</h1>
+    <div class="box">
+        <h2>Chicken</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero enim, lacinia et commodo sit amet, faucibus in mi. Etiam bibendum arcu quis faucibus viverra. Cras semper purus id tempus rhoncus. Curabitur ex ipsum, interdum non vehicula ut, ultricies in ipsum.</p>
+    </div>
+    <div class="box">
+        <h2>Beef</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero enim, lacinia et commodo sit amet, faucibus in mi. Etiam bibendum arcu quis faucibus viverra. Cras semper purus id tempus rhoncus. Curabitur ex ipsum, interdum non vehicula ut, ultricies in ipsum.</p>
+    </div>
+    <div class="box">
+        <h2>Sushi</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero enim, lacinia et commodo sit amet, faucibus in mi. Etiam bibendum arcu quis faucibus viverra. Cras semper purus id tempus rhoncus. Curabitur ex ipsum, interdum non vehicula ut, ultricies in ipsum.</p>
     </div>
 </body>
 </html>
